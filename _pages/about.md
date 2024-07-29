@@ -27,6 +27,7 @@ My research interests include software security and empirical study (especially 
 
 
 # 🔥 News
+- 🌟 Smart contract audit and transaction trace platform [XBlock Web3 Product](http://123.207.220.208:1024/) is online
 - *2024.07*: &nbsp;🎉 One paper is accepted by ICSE 2025
 - *2024.05*: &nbsp;🎉 One paper is accepted by TOSEM
 - *2023.12*: &nbsp;🎉 One paper is accepted by TIFS

@@ -77,8 +77,9 @@ Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic 
 </div>
 </div>
 
-- `TOSEM` [FunFuzz: A Function-oriented Fuzzer for Smart Contract Vulnerability Detection with High Effectiveness and Efficiency](https://dl.acm.org/doi/abs/10.1145/3674725), Mingxi Ye, Yuhong Nan, Hong-Ning Dai, **Shuo Yang**, Zibin Zheng, Xiapu Luo. 
-- `TIFS` [Towards Understanding Asset Flows in Crypto Money Laundering Through the Lenses of Ethereum Heist](https://ieeexplore.ieee.org/document/10371347), Jiajing Wu, Dan Lin, Qishuang Fu, **Shuo Yang**, Ting Chen, Zibin Zheng, Bowen Song. 
+- ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TOSEM-blue) [FunFuzz: A Function-oriented Fuzzer for Smart Contract Vulnerability Detection with High Effectiveness and Efficiency](https://dl.acm.org/doi/abs/10.1145/3674725), Mingxi Ye, Yuhong Nan, Hong-Ning Dai, **Shuo Yang**, Zibin Zheng, Xiapu Luo. 
+
+- ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TIFS-blue) [Towards Understanding Asset Flows in Crypto Money Laundering Through the Lenses of Ethereum Heist](https://ieeexplore.ieee.org/document/10371347), Jiajing Wu, Dan Lin, Qishuang Fu, **Shuo Yang**, Ting Chen, Zibin Zheng, Bowen Song. 
 
 
 # 🎖 Honors and Awards
@@ -91,7 +92,7 @@ Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic 
 - *2019.08* 2nd Prize of Chinese Undergraduate Computer Design Contest
 
 # 📖 Educations
-- *2022.06 - now*, Phd, Sun Yat-sen University, Zhuhai. 
+- *2022.09 - now*, Phd, Sun Yat-sen University, Zhuhai. 
 - *2018.09 - 2022.06*, Undergraduate, Zhongnan University of Economics and Law, Wuhan.
 - *2015.09 - 2018.06*, Hubei Wuchang Experimental High School, Wuhan. 
 

@@ -36,8 +36,8 @@ My research interests include software security and empirical study (especially 
 - *2023.08*: I join LightYear Security Lab, AntGroup as a research intern in Hangzhou, China
 - *2023.04*: &nbsp;🎉 One paper is accepted by ISSTA 2023
 
-# 👻 Confirmed Bugs/Attacks
-- PoCs of 10 **uncovered attacks** are confirmed and merged by [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
+# 👻 Confirmed Bugs/PoCs
+- PoCs of 10 **uncovered attacks** are found and confirmed by [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
 - 2 GPTs **prompt-leak bugs** are confirmed by corresponding developers, and 1 developer accepts our prompt protection suggestion.
 
 # 📝 Publications 
@@ -45,7 +45,7 @@ My research interests include software security and empirical study (especially 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSE 2025</div><img src='images/hyperion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution (Accepeted by ICSE 2025 Early Cycle!)
+[Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution](https://arxiv.org/abs/2408.06037) (Accepeted by ICSE 2025 Early Cycle!)
 
 **Shuo Yang**, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
 

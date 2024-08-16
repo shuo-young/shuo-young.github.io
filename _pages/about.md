@@ -39,6 +39,7 @@ My research interests include software security and empirical study (especially 
 # 👻 Confirmed Bugs/PoCs
 - PoCs of 10 **uncovered attacks** are found and confirmed by [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
 - 2 GPTs **prompt-leak bugs** are confirmed by corresponding developers, and 1 developer accepts our prompt protection suggestion.
+- 2 Issues in [Uniswap V4 Periphery](https://github.com/Uniswap/v4-periphery) and [Stop Loss Orders with Uniswap V4 Hooks](https://github.com/saucepoint/v4-stoploss) Repos.
 
 # 📝 Publications 
 

@@ -27,7 +27,7 @@ My research interests include software security and empirical study (especially 
 
 
 # 🔥 News
-- 🌟 Smart contract audit and transaction trace platform [XBlock Web3 Product](http://123.207.220.208:1024/) is online
+- 🌟 Smart contract audit and transaction trace platform [XBlock Web3 Product](https://xblock.pro/) is online
 - *2024.07*: &nbsp;🎉 One paper is accepted by ICSE 2025
 - *2024.05*: &nbsp;🎉 One paper is accepted by TOSEM
 - *2023.12*: &nbsp;🎉 One paper is accepted by TIFS
@@ -37,6 +37,7 @@ My research interests include software security and empirical study (especially 
 - *2023.04*: &nbsp;🎉 One paper is accepted by ISSTA 2023
 
 # 👻 Confirmed Bugs/PoCs
+- [CVE-2024-44445](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-44445) assigned, which is related to the contract state manipulation attack.
 - PoCs of 10 **uncovered attacks** are found and confirmed by [DeFiHackLabs](https://github.com/SunWeb3Sec/DeFiHackLabs)
 - 2 GPTs **prompt-leak bugs** are confirmed by corresponding developers, and 1 developer accepts our prompt protection suggestion.
 - 2 confirmed issues in [Uniswap V4 Periphery](https://github.com/Uniswap/v4-periphery) and [Stop Loss Orders with Uniswap V4 Hooks](https://github.com/saucepoint/v4-stoploss) Repos.
@@ -51,7 +52,7 @@ My research interests include software security and empirical study (especially 
 **Shuo Yang**, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
 
 [**Project**](https://github.com/shuo-young/Hyperion)
-- [Hyperion](https://github.com/shuo-young/Hyperion) is the first work that unveils 7 types of inconsistencies between DApp frontend description and backend smart contracts
+- [Hyperion](https://github.com/shuo-young/Hyperion)<img alt="GitHub forks" src="https://img.shields.io/github/stars/shuo-young/Hyperion" style="margin: 0 3px"/>  is the first work that unveils 7 types of inconsistencies between DApp frontend description and backend smart contracts
 - Combined techniques with LLM and program analysis
 - Contract IR-based symbolic execution guided by preliminary dataflow analysis
 </div>
@@ -103,6 +104,7 @@ My research interests include software security and empirical study (especially 
 - *2015.09 - 2018.06*, Hubei Wuchang Experimental High School, Wuhan. 
 
 # 💬 Invited Talks
+- *2024.08*, ICSE'25 accepted papers symposium held by CCF Software Engineering Committee, Virtual
 - *2024.04*, ICSE 2024 oral presentation, Lisbon, Portugal
 - *2024.02*, ICSE'24 accepted papers symposium held by CCF Software Engineering Committee, Virtual
 - *2023.07*, ISSTA 2023 oral presentation, Seattle, USA

@@ -27,6 +27,8 @@ My research interests include software security and empirical study (especially 
 
 
 # 🔥 News
+- *2024.11*: &nbsp;🎉 I win the National Scholarship for Doctoral Students
+- *2024.11*: &nbsp;🎉 One paper is accepted by SANER 2025. Congrats to Lei Xiao!
 - 🌟 Smart contract audit and transaction trace platform [XBlock Web3 Product](https://xblock.pro/) is online
 - *2024.07*: &nbsp;🎉 One paper is accepted by ICSE 2025
 - *2024.05*: &nbsp;🎉 One paper is accepted by TOSEM
@@ -83,12 +85,15 @@ My research interests include software security and empirical study (especially 
 </div>
 </div>
 
+- ![Static Badge](https://img.shields.io/badge/CCF--B%20Conference-SANER-yellow) [WakeMint: Detecting Sleepminting Vulnerabilities in NFT Smart Contracts](), Lei Xiao, **Shuo Yang**, Wen Chen, Zibin Zheng. 
+
 - ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TOSEM-blue) [FunFuzz: A Function-oriented Fuzzer for Smart Contract Vulnerability Detection with High Effectiveness and Efficiency](https://dl.acm.org/doi/abs/10.1145/3674725), Mingxi Ye, Yuhong Nan, Hong-Ning Dai, **Shuo Yang**, Zibin Zheng, Xiapu Luo. 
 
 - ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TIFS-blue) [Towards Understanding Asset Flows in Crypto Money Laundering Through the Lenses of Ethereum Heist](https://ieeexplore.ieee.org/document/10371347), Jiajing Wu, Dan Lin, Qishuang Fu, **Shuo Yang**, Ting Chen, Zibin Zheng, Bowen Song. 
 
 
 # 🎖 Honors and Awards
+- *2024.11* National Scholarship
 - *2023.10* President Scholarship for Doctoral Students
 - *2023.09* 1st prize of China Service Computing Innovation Contest
 - *2023.04* 8th Place at Numen Cyper CTF (Capture-The-Flag)

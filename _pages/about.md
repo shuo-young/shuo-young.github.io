@@ -19,14 +19,15 @@ redirect_from:
 
 I'm currently a second-year Ph.D. student at the School of Software Engineering, Sun Yat-sen University. 
 
-I am under the supervision of <a href='http://www.zibinzheng.com/cv'>Prof. Zibin Zheng (郑子彬)</a> and <a href='https://jiachi-chen.github.io/'>Dr. Jiachi Chen (陈嘉弛)</a> at <a href='http://www.inpluslab.com'>InPlusLab</a> since Aug. 2021. 
+I am under the supervision of <a href='http://www.zibinzheng.com/cv'>Prof. Zibin Zheng (郑子彬)</a> and <a href='https://jiachi-chen.github.io/'>Associate Prof. Jiachi Chen (陈嘉弛)</a> at <a href='http://www.inpluslab.com'>InPlusLab</a> since Aug. 2021. 
 
-My research interests include software security and empirical study (especially for smart contracts), static analysis, and LLM. I have published 5 papers at the top (CCF-A) international Software Engineering/Security conferences/journals such as ICSE, ISSTA, TOSEM, TIFS.
+My research interests include software security and empirical study (especially for smart contracts), static analysis, and LLM. I have published 6 papers at the top (CCF-A) international Software Engineering/Security conferences/journals such as ICSE, ISSTA, TOSEM, TIFS.
 
  <!-- with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
+- *2025.3*: &nbsp;🎉 One paper is accepted by TSE. Congrats to Zhenzhe!
 - *2024.11*: &nbsp;🎉 I win the National Scholarship for Doctoral Students
 - *2024.11*: &nbsp;🎉 One paper is accepted by SANER 2025. Congrats to Lei Xiao!
 - 🌟 Smart contract audit and transaction trace platform [XBlock Web3 Product](https://xblock.pro/) is online
@@ -84,6 +85,9 @@ My research interests include software security and empirical study (especially 
 - [NFTGuard](https://github.com/NFTDefects/nftdefects)<img alt="GitHub forks" src="https://img.shields.io/github/stars/NFTDefects/nftdefects" style="margin: 0 3px"/> is the first work to define and detect the 5 defects in NFT smart contracts
 </div>
 </div>
+
+
+- ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TSE-green) [NumScout: Unveiling Numerical Defects in Smart Contracts using LLM-Pruning Symbolic Execution](https://arxiv.org/abs/2503.10041), Jiachi Chen, Zhenzhe Shao, Shuo Yang, Yiming Shen, Yanlin Wang, Ting Chen, Zhenyu Shan, Zibin Zheng.
 
 - ![Static Badge](https://img.shields.io/badge/CCF--B%20Conference-SANER-yellow) [WakeMint: Detecting Sleepminting Vulnerabilities in NFT Smart Contracts](), Lei Xiao, **Shuo Yang**, Wen Chen, Zibin Zheng. 
 

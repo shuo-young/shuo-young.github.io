@@ -21,7 +21,7 @@ I'm currently a second-year Ph.D. student at the School of Software Engineering,
 
 I am under the supervision of <a href='http://www.zibinzheng.com/cv'>Prof. Zibin Zheng (郑子彬)</a> and <a href='https://jiachi-chen.github.io/'>Associate Prof. Jiachi Chen (陈嘉弛)</a> at <a href='http://www.inpluslab.com'>InPlusLab</a> since Aug. 2021. 
 
-My research interests include software security and empirical study (especially for smart contracts), static analysis, and LLM. I have published 6 papers at the top (CCF-A) international Software Engineering/Security conferences/journals such as ICSE, ISSTA, TOSEM, TIFS.
+My research interests include software security and empirical study (especially for smart contracts), static analysis, and LLM. I have published 6 papers at the top (CCF-A) international Software Engineering/Security conferences/journals such as ICSE, ISSTA, TOSEM, TSE, TIFS.
 
  <!-- with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -87,9 +87,9 @@ My research interests include software security and empirical study (especially 
 </div>
 
 
-- ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TSE-green) [NumScout: Unveiling Numerical Defects in Smart Contracts using LLM-Pruning Symbolic Execution](https://arxiv.org/abs/2503.10041), Jiachi Chen, Zhenzhe Shao, Shuo Yang, Yiming Shen, Yanlin Wang, Ting Chen, Zhenyu Shan, Zibin Zheng.
+- ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TSE-green) [NumScout: Unveiling Numerical Defects in Smart Contracts using LLM-Pruning Symbolic Execution](https://arxiv.org/abs/2503.10041), Jiachi Chen, Zhenzhe Shao, **Shuo Yang**, Yiming Shen, Yanlin Wang, Ting Chen, Zhenyu Shan, Zibin Zheng.
 
-- ![Static Badge](https://img.shields.io/badge/CCF--B%20Conference-SANER-yellow) [WakeMint: Detecting Sleepminting Vulnerabilities in NFT Smart Contracts](), Lei Xiao, **Shuo Yang**, Wen Chen, Zibin Zheng. 
+- ![Static Badge](https://img.shields.io/badge/CCF--B%20Conference-SANER-yellow) [WakeMint: Detecting Sleepminting Vulnerabilities in NFT Smart Contracts](), Lei Xiao, **Shuo Yang\***, Wen Chen, Zibin Zheng. 
 
 - ![Static Badge](https://img.shields.io/badge/CCF--A%20Journal-TOSEM-blue) [FunFuzz: A Function-oriented Fuzzer for Smart Contract Vulnerability Detection with High Effectiveness and Efficiency](https://dl.acm.org/doi/abs/10.1145/3674725), Mingxi Ye, Yuhong Nan, Hong-Ning Dai, **Shuo Yang**, Zibin Zheng, Xiapu Luo. 
 
@@ -112,6 +112,7 @@ My research interests include software security and empirical study (especially 
 - *2015.09 - 2018.06*, Hubei Wuchang Experimental High School, Wuhan. 
 
 # 💬 Invited Talks
+- *2025.05*, ICSE 2025 oral presentation, Virtual
 - *2024.08*, ICSE'25 accepted papers symposium held by CCF Software Engineering Committee, Virtual
 - *2024.04*, ICSE 2024 oral presentation, Lisbon, Portugal
 - *2024.02*, ICSE'24 accepted papers symposium held by CCF Software Engineering Committee, Virtual

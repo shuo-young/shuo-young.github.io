@@ -17,17 +17,19 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I'm currently a second-year Ph.D. student at the School of Software Engineering, Sun Yat-sen University. 
+I'm currently a 4th-year Ph.D. student at the School of Software Engineering, Sun Yat-sen University. 
 
 I am under the supervision of <a href='http://www.zibinzheng.com/cv'>Prof. Zibin Zheng (郑子彬)</a> and <a href='https://jiachi-chen.github.io/'>Associate Prof. Jiachi Chen (陈嘉弛)</a> at <a href='http://www.inpluslab.com'>InPlusLab</a> since Aug. 2021. 
 
-My research interests include software security and empirical study (especially for smart contracts), static analysis, and LLM. I have published 6 papers at the top (CCF-A) international Software Engineering/Security conferences/journals such as ICSE, ISSTA, TOSEM, TSE, TIFS.
+My research interests include software security and empirical study (especially for smart contracts), static analysis, and LLM. I have published 7 papers at the top (CCF-A) international Software Engineering/Security conferences/journals such as ICSE, ISSTA, TOSEM, TSE, TIFS.
 
  <!-- with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
 
 # 🔥 News
-- *2025.3*: &nbsp;🎉 One paper is accepted by TSE. Congrats to Zhenzhe!
+- *2025.08*: &nbsp;🎉 One paper is accepted by TSE.
+- *2025.07*: I join DarkNavy as a research intern in Shanghai, China
+- *2025.03*: &nbsp;🎉 One paper is accepted by TSE. Congrats to Zhenzhe!
 - *2024.11*: &nbsp;🎉 I win the National Scholarship for Doctoral Students
 - *2024.11*: &nbsp;🎉 One paper is accepted by SANER 2025. Congrats to Lei Xiao!
 - 🌟 Smart contract audit and transaction trace platform [XBlock Web3 Product](https://xblock.pro/) is online
@@ -46,17 +48,30 @@ My research interests include software security and empirical study (especially 
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TSE</div><img src='images/tse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Who is Pulling the Strings: Unveiling Smart Contract
+State Manipulation Attacks through State-Aware
+Dataflow Analysis]() 
+
+**Shuo Yang**, Jiachi Chen, Lei Xiao, Jinyuan Hu, Dan Lin, Jiajing Wu, Tao Zhang, Zibin Zheng [[**Code**]](https://github.com/shuo-young/SMAsher)
+
+- [SMAsher](https://github.com/shuo-young/SMAsher)<img alt="GitHub forks" src="https://img.shields.io/github/stars/shuo-young/SMAsher" style="margin: 0 3px"/> is the first work that proposes the state manipulation attack concept
+- Uncover attacker contract behaviors from code and transaction perspectives
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICSE 2025</div><img src='images/hyperion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution](https://arxiv.org/abs/2408.06037) (Accepeted by ICSE 2025 Early Cycle!)
+[Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution](https://arxiv.org/abs/2408.06037)
 
-**Shuo Yang**, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng
+**Shuo Yang**, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng [[**Code**]](https://github.com/shuo-young/Hyperion)
 
-[**Project**](https://github.com/shuo-young/Hyperion)
 - [Hyperion](https://github.com/shuo-young/Hyperion)<img alt="GitHub forks" src="https://img.shields.io/github/stars/shuo-young/Hyperion" style="margin: 0 3px"/>  is the first work that unveils 7 types of inconsistencies between DApp frontend description and backend smart contracts
-- Combined techniques with LLM and program analysis
-- Contract IR-based symbolic execution guided by preliminary dataflow analysis
+- Combined techniques with instruction-tuned LLM and static program analysis
+- Contract IR-based symbolic execution guided by dataflow analysis
 </div>
 </div>
 
@@ -66,9 +81,8 @@ My research interests include software security and empirical study (especially 
 
 [Uncover the Premeditated Attacks: Detecting Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts](https://arxiv.org/abs/2403.19112)
 
-**Shuo Yang**, Jiachi Chen, Mingyuan Huang, Zibin Zheng, Yuan Huang
+**Shuo Yang**, Jiachi Chen, Mingyuan Huang, Zibin Zheng, Yuan Huang [[**Code**]](https://github.com/shuo-young/BlockWatchdog) <strong><span class='show_paper_citations' data='VzoAAVoAAAAJ:eQOLeE2rZwMC'></span></strong>
 
-[**Project**](https://github.com/shuo-young/BlockWatchdog) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
 - [BlockWatchdog](https://github.com/shuo-young/BlockWatchdog)<img alt="GitHub forks" src="https://img.shields.io/github/stars/shuo-young/BlockWatchdog" style="margin: 0 3px"/> is the first work to identify reentrancy attacker contracts based on static dataflow analysis
 - We provide the rust implementation [Lydia](https://github.com/shuo-young/lydia) (>10% faster)<img alt="GitHub forks" src="https://img.shields.io/github/stars/shuo-young/lydia" style="margin: 0 3px"/>
 </div>
@@ -80,8 +94,8 @@ My research interests include software security and empirical study (especially 
 [Definition and Detection of Defects in NFT Smart Contracts](https://dl.acm.org/doi/10.1145/3597926.3598063)
 
 **Shuo Yang**, Jiachi Chen, Zibin Zheng
+[**[Code]**](https://github.com/NFTDefects/nftdefects)
 
-[**Project**](https://github.com/NFTDefects/nftdefects)
 - [NFTGuard](https://github.com/NFTDefects/nftdefects)<img alt="GitHub forks" src="https://img.shields.io/github/stars/NFTDefects/nftdefects" style="margin: 0 3px"/> is the first work to define and detect the 5 defects in NFT smart contracts
 </div>
 </div>
@@ -100,7 +114,7 @@ My research interests include software security and empirical study (especially 
 - *2024.11* National Scholarship
 - *2023.10* President Scholarship for Doctoral Students
 - *2023.09* 1st prize of China Service Computing Innovation Contest
-- *2023.04* 8th Place at Numen Cyper CTF (Capture-The-Flag)
+- *2023.04* 8th Place at Numen Cyper CTF
 - *2021.06* 3rd Prize of Competition of Service Outsourcing and Entrepreneurship Innovation
 - *2021.05* 3rd Prize of Chinese Undergraduate Internet Software Design Competition
 - *2020.06* 3rd Prize of Competition of Service Outsourcing and Entrepreneurship Innovation
@@ -119,10 +133,12 @@ My research interests include software security and empirical study (especially 
 - *2023.07*, ISSTA 2023 oral presentation, Seattle, USA
 
 # 💻 Internships
-- *2023.08 - 2024.01*, [LightYear Security Lab, AntGroup](https://www.antgroup.com/en), Hangzhou.
-- *2021.10 - 2022.01*, [R&D of blockchain underlying platform, Webank](https://www.webank.com/), Shenzhen.
-- *2021.07 - 2021.08*, [YGSoft](https://www.ygsoft.com/), Wuhan.
+- *2025.07 - now*, [DarkNavy](https://www.darknavy.org), Shanghai, China.
+- *2024.09 - 2024.12*, [GoPlus](https://gopluslabs.io/), Remote.
+- *2023.08 - 2024.01*, [LightYear Security Lab, AntGroup](https://www.antgroup.com/en), Hangzhou, China.
+- *2021.10 - 2022.01*, [R&D of blockchain underlying platform, Webank](https://www.webank.com/), Shenzhen, China.
+- *2021.07 - 2021.08*, [YGSoft](https://www.ygsoft.com/), Wuhan, China.
 
 # 🔧 Skills
 - English: IELTS 7.0, GRE 321+4.0, CET6 566, CET4 626
-- Programming Language: Python, Java, Solidity, Rust, C/C++, JavaScript
+- Programming Language: Python, Java, Solidity, Rust, C/C++, JavaScript, TypeScript

@@ -139,6 +139,9 @@ Dataflow Analysis]()
 - *2021.10 - 2022.01*, [R&D of blockchain underlying platform, Webank](https://www.webank.com/), Shenzhen, China.
 - *2021.07 - 2021.08*, [YGSoft](https://www.ygsoft.com/), Wuhan, China.
 
+# ✈️ Travels
+\- North America: 🇺🇸 - Europe: 🇫🇷 🇵🇹 - Asia: 🇯🇵 🇰🇷 🇸🇬
+
 # 🔧 Skills
 - English: IELTS 7.0, GRE 321+4.0, CET6 566, CET4 626
 - Programming Language: Python, Java, Solidity, Rust, C/C++, JavaScript, TypeScript

@@ -141,7 +141,7 @@ Dataflow Analysis]()
 - *2021.07 - 2021.08*, [YGSoft](https://www.ygsoft.com/), Wuhan, China.
 
 # ✈️ Travels
-\- North America: 🇺🇸 - Europe: 🇫🇷 🇵🇹 - Asia: 🇯🇵 🇰🇷 🇸🇬
+\- North America: 🇺🇸 - Europe: 🇫🇷 🇵🇹 🇲🇨 🇨🇭 - Asia: 🇯🇵 🇰🇷 🇸🇬 🇹🇭
 
 # 🔧 Skills
 - English: IELTS 7.0, GRE 321+4.0, CET6 566, CET4 626

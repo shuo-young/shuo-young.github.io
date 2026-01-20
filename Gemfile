@@ -27,3 +27,6 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.9"
+gem "csv"
+gem "bigdecimal"
+gem "ruby4-patch", path: "_gems/ruby4-patch", group: :jekyll_plugins

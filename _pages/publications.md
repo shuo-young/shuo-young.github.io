@@ -9,6 +9,39 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
+<style>
+.publications ol.bibliography li div.links {
+  display: inline-flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 6px !important;
+  margin-right: 8px !important;
+  margin-bottom: 0.25rem !important;
+  vertical-align: middle !important;
+}
+.publications ol.bibliography li div.links a.btn {
+  margin-right: 0 !important;
+  margin-bottom: 0 !important;
+}
+.publications ol.bibliography li div.badges {
+  display: inline-flex !important;
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 8px !important;
+  padding-bottom: 0.25rem !important;
+  vertical-align: middle !important;
+}
+.publications ol.bibliography li div.badges span,
+.publications ol.bibliography li div.badges a {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding-right: 0 !important;
+}
+.publications ol.bibliography li div.badges .__dimensions_badge_embed__ {
+  margin-bottom: 0 !important;
+}
+</style>
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}

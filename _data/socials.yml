@@ -4,11 +4,13 @@
 cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: yangsh233@mail2.sysu.edu.cn # your email address
 github_username: shuo-young
-inspirehep_id:
 orcid_id: 0009-0004-4919-3138
 research_gate_profile: Shuo-Yang-107
-rss_icon: true # comment this line to hide the RSS icon
 scholar_userid: VzoAAVoAAAAJ # your Google Scholar ID
 x_username: shall_yangshuo
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#   title: Custom Social
+#   url: https://www.alberteinstein.com/

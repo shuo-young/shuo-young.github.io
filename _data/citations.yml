@@ -1,6 +1,55 @@
 metadata:
   last_updated: '2026-08-28'
 papers:
+  0EnyYjriUFMC: &id001
+    citations: 26
+    title: 'Numscout: Unveiling numerical defects in smart contracts using llm-pruning symbolic execution'
+    year: '2025'
+  5nxA0vEk-isC: &id002
+    citations: 1
+    title: 'Who Is Pulling the Strings: Unveiling Smart Contract State Manipulation Attacks Through State-Aware Dataflow Analysis'
+    year: '2025'
+  8k81kl-MbHgC: &id003
+    citations: 0
+    title: 'Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem'
+    year: '2026'
+  LkGwnXOMwfcC: &id004
+    citations: 24
+    title: 'Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution'
+    year: '2025'
+  Se3iqnhoufwC: &id005
+    citations: 111
+    title: Toward understanding asset flows in crypto money laundering through the lenses of Ethereum heists
+    year: '2023'
+  UebtZRa9Y70C: &id006
+    citations: 3
+    title: 'WaLi: Control-flow-based analysis of wasm smart contracts'
+    year: '2022'
+  VzoAAVoAAAAJ:0EnyYjriUFMC: *id001
+  VzoAAVoAAAAJ:5nxA0vEk-isC: *id002
+  VzoAAVoAAAAJ:8k81kl-MbHgC: *id003
+  VzoAAVoAAAAJ:LkGwnXOMwfcC: *id004
+  VzoAAVoAAAAJ:Se3iqnhoufwC: *id005
+  VzoAAVoAAAAJ:UebtZRa9Y70C: *id006
+  VzoAAVoAAAAJ:YsMSGLbcyi4C: &id007
+    citations: 60
+    title: Definition and detection of defects in nft smart contracts
+    year: '2023'
+  VzoAAVoAAAAJ:eQOLeE2rZwMC: &id008
+    citations: 51
+    title: 'Uncover the premeditated attacks: Detecting exploitable reentrancy vulnerabilities by identifying attacker contracts'
+    year: '2024'
+  VzoAAVoAAAAJ:hqOjcs7Dif8C: &id009
+    citations: 6
+    title: 'WakeMint: Detecting Sleepminting Vulnerabilities in NFT Smart Contracts'
+    year: '2025'
+  VzoAAVoAAAAJ:ufrVoPGSRksC: &id010
+    citations: 28
+    title: 'FunFuzz: A Function-oriented Fuzzer for Smart Contract Vulnerability Detection with High Effectiveness and Efficiency'
+    year: '2024'
+  YsMSGLbcyi4C: *id007
+  eQOLeE2rZwMC: *id008
+  hqOjcs7Dif8C: *id009
   qc6CJjYAAAAJ:-1WLWRmjvKAC:
     citations: 4
     title: THE DULONG-PETIT LAW OF SPECIFIC HEATS
@@ -4177,3 +4226,4 @@ papers:
     citations: 83
     title: Albert Einstein, the human side
     year: '2013'
+  ufrVoPGSRksC: *id010

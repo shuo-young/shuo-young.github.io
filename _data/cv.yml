@@ -1,189 +1,298 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Shuo Yang
+  label: Ph.D. Candidate in Software Engineering
+  email: yangsh233@mail2.sysu.edu.cn
+  location: Shanghai, China
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Ph.D. candidate in Software Engineering at Sun Yat-sen University (InPlusLab), supervised by Prof. Zibin Zheng and Assoc. Prof. Jiachi Chen. Research interests include software security, smart contracts, program analysis, and AI for security.
+  website: https://shuo-young.github.io
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: shuo-young
+    - network: Google Scholar
+      username: VzoAAVoAAAAJ
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Shanghai
+    region: China
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Sun Yat-sen University
+        location: Zhuhai, China
+        url: https://www.sysu.edu.cn/
+        studyType: Ph.D. in Software Engineering
+        start_date: "2022-09-01"
+        end_date: "Present"
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Advisors: Prof. [Zibin Zheng](http://www.zibinzheng.com/cv) and Assoc. Prof. [Jiachi Chen](https://jiachi-chen.github.io/), [InPlusLab](http://www.inpluslab.com)"
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Zhongnan University of Economics and Law
+        location: Wuhan, China
+        url: https://www.zuel.edu.cn/
+        studyType: B.E. in Information Management System
+        start_date: "2018-09-01"
+        end_date: "2022-06-30"
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: DarkNavy
+        position: Research Intern
+        location: Shanghai, China
+        start_date: "2025"
+        end_date: "2026"
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      - company: GoPlus Security
+        position: Research Intern
+        location: Remote
+        start_date: "2024"
+        end_date: "2024"
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Skyward Lab, Ant Group
+        position: Research Intern
+        location: Hangzhou, China
+        start_date: "2023-08-01"
+        end_date: "2024-01-31"
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: R&D of Blockchain Underlying Platform, WeBank
+        position: Research Intern
+        location: Shenzhen, China
+        start_date: "2021-10-01"
+        end_date: "2022-01-31"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Revealing the Dark Side of Smart Accounts: An Empirical Study of EIP-7702 Incurred Risks in Blockchain Ecosystem"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Mingyuan Huang
+          - Han Liu
+          - Shuo Yang
+          - Daoyuan Wu
+          - Shuai Wang
+        publisher: "USENIX Security 2026 (CCF-A)"
+        releaseDate: "2026"
+        summary: "Mingyuan Huang, Han Liu, **Shuo Yang**, Daoyuan Wu, Shuai Wang"
+        url: "https://www.usenix.org/conference/usenixsecurity26"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Hyperion: Unveiling DApp Inconsistencies using LLM and Dataflow-Guided Symbolic Execution"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Shuo Yang
+          - Xingwei Lin
+          - Jiachi Chen
+          - Qingyuan Zhong
+          - Lei Xiao
+          - Renke Huang
+          - Yanlin Wang
+          - Zibin Zheng
+        publisher: "ICSE 2025 (CCF-A)"
+        releaseDate: "2025"
+        summary: "**Shuo Yang**, Xingwei Lin, Jiachi Chen, Qingyuan Zhong, Lei Xiao, Renke Huang, Yanlin Wang, Zibin Zheng"
+        url: "https://github.com/shuo-young/Hyperion"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Who is Pulling the Strings: Unveiling Smart Contract State Manipulation Attacks through State-Aware Dataflow Analysis"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Shuo Yang
+          - Jiachi Chen
+          - Lei Xiao
+          - Jinyuan Hu
+          - Dan Lin
+          - Jiajing Wu
+          - Tao Zhang
+          - Zibin Zheng
+        publisher: "IEEE Transactions on Software Engineering (TSE), 2025 (CCF-A)"
+        releaseDate: "2025"
+        summary: "**Shuo Yang**, Jiachi Chen, Lei Xiao, Jinyuan Hu, Dan Lin, Jiajing Wu, Tao Zhang, Zibin Zheng"
+        url: "https://github.com/shuo-young/SMAsher"
+
+      - title: "Uncover the Premeditated Attacks: Detecting Exploitable Reentrancy Vulnerabilities by Identifying Attacker Contracts"
+        authors:
+          - Shuo Yang
+          - Jiachi Chen
+          - Mingyuan Huang
+          - Zibin Zheng
+          - Yuan Huang
+        publisher: "ICSE 2024 (CCF-A)"
+        releaseDate: "2024"
+        summary: "**Shuo Yang**, Jiachi Chen, Mingyuan Huang, Zibin Zheng, Yuan Huang"
+        url: "https://doi.org/10.1145/3597503.3639148"
+
+      - title: "Definition and Detection of Defects in NFT Smart Contracts"
+        authors:
+          - Shuo Yang
+          - Jiachi Chen
+          - Zibin Zheng
+        publisher: "ISSTA 2023 (CCF-A)"
+        releaseDate: "2023"
+        summary: "**Shuo Yang**, Jiachi Chen, Zibin Zheng"
+        url: "https://doi.org/10.1145/3597926.3598089"
+
+      - title: "NumScout: Unveiling Numerical Defects in Smart Contracts using LLM-Pruning Symbolic Execution"
+        authors:
+          - Jiachi Chen
+          - Zhenzhe Shao
+          - Shuo Yang
+          - Yiming Shen
+          - Yanlin Wang
+          - Ting Chen
+          - Zhenyu Shan
+          - Zibin Zheng
+        publisher: "IEEE Transactions on Software Engineering (TSE), 2025 (CCF-A)"
+        releaseDate: "2025"
+        summary: "Jiachi Chen, Zhenzhe Shao, **Shuo Yang**, Yiming Shen, Yanlin Wang, Ting Chen, Zhenyu Shan, Zibin Zheng"
+
+      - title: "WakeMint: Detecting Sleepminting Vulnerabilities in NFT Smart Contracts"
+        authors:
+          - Lei Xiao
+          - Shuo Yang
+          - Wen Chen
+          - Zibin Zheng
+        publisher: "SANER 2025 (CCF-B)"
+        releaseDate: "2025"
+        summary: "Lei Xiao, **Shuo Yang* (corresponding author)**, Wen Chen, Zibin Zheng"
+
+      - title: "FunFuzz: A Function-oriented Fuzzer for Smart Contract Vulnerability Detection with High Effectiveness and Efficiency"
+        authors:
+          - Mingxi Ye
+          - Yuhong Nan
+          - Hong-Ning Dai
+          - Shuo Yang
+          - Zibin Zheng
+          - Xiapu Luo
+        publisher: "ACM Transactions on Software Engineering and Methodology (TOSEM), 2024 (CCF-A)"
+        releaseDate: "2024"
+        summary: "Mingxi Ye, Yuhong Nan, Hong-Ning Dai, **Shuo Yang**, Zibin Zheng, Xiapu Luo"
+        url: "https://doi.org/10.1145/3697034"
+
+      - title: "Towards Understanding Asset Flows in Crypto Money Laundering Through the Lenses of Ethereum Heist"
+        authors:
+          - Jiajing Wu
+          - Dan Lin
+          - Qishuang Fu
+          - Shuo Yang
+          - Ting Chen
+          - Zibin Zheng
+          - Bowen Song
+        publisher: "IEEE Transactions on Information Forensics and Security (TIFS), 2023 (CCF-A)"
+        releaseDate: "2023"
+        summary: "Jiajing Wu, Dan Lin, Qishuang Fu, **Shuo Yang**, Ting Chen, Zibin Zheng, Bowen Song"
+        url: "https://doi.org/10.1109/TIFS.2023.3283280"
+
+      - title: "WaLi: Control-Flow-Based Analysis of Wasm Smart Contracts"
+        authors:
+          - Shuo Yang
+          - Huizhong Li
+          - Zibin Zheng
+        publisher: "BlockSys 2022 (CCF-C)"
+        releaseDate: "2022"
+        summary: "**Shuo Yang**, Huizhong Li, Zibin Zheng"
+        url: "https://link.springer.com/chapter/10.1007/978-981-19-8043-5_23"
+
+    Academic Service:
+      - bullet: "**Program Committee Member:**"
+      - bullet: "BlockSys 2026: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (CCF-C)"
+      - bullet: "BlockSys 2023: International Conference on Blockchain and Trustworthy Systems (CCF-C)"
+      - bullet: "**Journal & Conference Sub-reviewer:**"
+      - bullet: "IEEE Transactions on Dependable and Secure Computing (TDSC, CCF-A, JCR Q1)"
+      - bullet: "ACM Transactions on Software Engineering and Methodology (TOSEM, CCF-A, JCR Q1)"
+      - bullet: "IEEE Internet of Things Journal (IoTJ, CCF-C, JCR Q1)"
+      - bullet: "IEEE Transactions on Network Science and Engineering (TNSE, JCR Q1)"
+      - bullet: "Blockchain: Research and Applications (BCRA, CCF-B, JCR Q1)"
+      - bullet: "Annual Meeting of the Association for Computational Linguistics (ACL 2025, CCF-A)"
+      - bullet: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2025, CCF-A)"
+      - bullet: "International Conference on Learning Representations (ICLR 2025, CCF-A)"
+      - bullet: "Asia-Pacific Software Engineering Conference (APSEC 2024, CCF-C)"
+      - bullet: "15th Asia-Pacific Symposium on Internetware (Internetware 2024, CCF-C)"
+
+    Awards:
+      - title: National Scholarship
+        awarder: China
+        date: "2024"
+
+      - title: President Scholarship for Doctoral Students
+        awarder: Sun Yat-sen University
+        date: "2023"
+
+      - title: 1st Prize
+        awarder: China Service Computing Innovation Contest
+        date: "2023"
+
+      - title: 8th Place
+        awarder: Numen Cyber CTF
+        date: "2023"
+
+      - title: 3rd Prize
+        awarder: Competition of Service Outsourcing and Entrepreneurship Innovation
+        date: "2021"
+
+      - title: 3rd Prize
+        awarder: Chinese Undergraduate Internet Software Design Competition
+        date: "2021"
+
+      - title: 3rd Prize
+        awarder: Competition of Service Outsourcing and Entrepreneurship Innovation
+        date: "2020"
+
+      - title: 2nd Prize
+        awarder: Chinese Undergraduate Computer Design Contest
+        date: "2019"
+
+    Security Contributions:
+      - bullet: "Earned **$22,800+** in rewards from **ImmuneFi** Web3 bug bounty for confirmed vulnerabilities."
+      - bullet: "AI-driven automated blockchain attack root cause analysis reports garnering over **15K** views."
+      - bullet: "10 uncovered real-world attack analyses confirmed by [**DeFiHackLabs**](https://github.com/SunWeb3Sec/DeFiHackLabs)."
+      - bullet: "2 GPT prompt-leak bugs confirmed by developers; 1 developer adopted our prompt protection suggestion."
+      - bullet: "2 confirmed issues in [**Uniswap V4 Periphery**](https://github.com/Uniswap/v4-periphery) and Stop Loss Orders with Uniswap V4 Hooks repos."
+
+    Open Source Projects:
+      - name: SMAsher
+        url: https://github.com/shuo-young/SMAsher
+        summary: State manipulation attack detector via state-aware dataflow analysis.
+
+      - name: Hyperion
+        url: https://github.com/shuo-young/Hyperion
+        summary: DApp inconsistency detector using LLM and symbolic execution.
+
+      - name: BlockWatchdog / Lydia
+        url: https://github.com/shuo-young/BlockWatchdog
+        summary: Reentrancy attacker contract identification (Python / Rust).
+
+      - name: NFTGuard
+        url: https://github.com/NFTDefects/nftdefects
+        summary: NFT smart contract defect definition and detection.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Major Research Skills
+        icon: fa-solid fa-shield-halved
+        keywords:
+          - "Smart contract audit (Solidity, Vyper, Move, Rust, Python)"
+          - "EVM decompilation"
+          - "Transaction analysis"
+          - "Audit report analysis"
+          - "Academic paper & technical report writing"
+          - "LLM-powered security agent development"
+
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords:
+          - "Python"
+          - "Rust"
+          - "Solidity"
+          - "Java"
+          - "C/C++"
+          - "JavaScript/TypeScript"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
-        summary: "Fluent"
+        icon: fa-solid fa-language
+        summary: "Professional (IELTS 7.0, GRE 321+4.0)"
+
+      - name: Chinese
+        icon: fa-solid fa-language
+        summary: "Native"
 
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Research Interests
+        icon: fa-solid fa-magnifying-glass
+        keywords:
+          - "AI for Security"
+          - "Agent Security"
+          - "AI for Program Analysis"

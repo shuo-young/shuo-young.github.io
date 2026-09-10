@@ -45,7 +45,7 @@ nav_order: 2
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".publications .periodical").forEach(function (el) {
-    el.innerHTML = el.innerHTML.replace(/\s+,/g, ",");
+    el.innerHTML = el.innerHTML.replace(/<em>\s*In\s+/gi, "<em>").replace(/\s+,/g, ",");
   });
 });
 </script>

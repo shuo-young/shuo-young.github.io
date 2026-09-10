@@ -42,6 +42,14 @@ nav_order: 2
 }
 </style>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll(".publications .periodical").forEach(function (el) {
+    el.innerHTML = el.innerHTML.replace(/\s+,/g, ",");
+  });
+});
+</script>
+
 <!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}

@@ -11,9 +11,10 @@
   year              = {2026},
   abbr              = {USENIX Security},
   html              = {https://www.usenix.org/conference/usenixsecurity26/presentation/huang-mingyuan},
+  pdf               = {https://www.usenix.org/system/files/usenixsecurity26-huang-mingyuan.pdf},
   google_scholar_id = {8k81kl-MbHgC},
   preview           = {security26.png},
-  abstract          = {An empirical study of security risks introduced by EIP-7702 smart accounts across the blockchain ecosystem.},
+  abstract          = {The introduction of smart accounts by EIP-7702 represents a major advancement for blockchain account abstraction, enabling externally owned accounts (EOAs) to be upgraded into programmable accounts while still preserving their original addresses. This advancement significantly enhances both account functionality and usability, but also redefines blockchain trust boundaries between EOAs and smart contract accounts (CAs), thereby altering security assumptions and creating opportunities for novel types of attack. To systematically examine these risks, we classify smart account-based risks into three categories according to the type of victim accounts: EOA-targeted, CA-targeted, and composite attacks. We then develop specialized detection tools that combine large-scale transaction analysis with cross-contract static analysis to identify malicious behaviors. Applying these tools across seven blockchains that support EIP-7702, we detect 924 malicious contract accounts, including several previously unreported zero-day cases. These attacks have led to more than 2.3 million in losses and exposed over 10 million to potential compromise. We uncover multiple key insights into attacker behaviors. Specifically, we find that over 63% of EIP-7702 authorization transactions are associated with malicious EOA-targeted attacks, and nearly half of the most frequently authorized contracts are controlled by attackers. In addition, we identify existing evasion tactics that attackers use to circumvent detection, attack impacts observed in real-world incidents, and potential risks that may emerge in future deployments, underscoring the urgency of addressing smart account security in blockchain ecosystems.},
   selected          = {true}
 }
 
@@ -31,7 +32,7 @@
   altmetric         = {true},
   google_scholar_id = {5nxA0vEk-isC},
   preview           = {smasher.png},
-  abstract          = {A state-aware dataflow analysis approach for identifying smart contract state manipulation attacks.},
+  abstract          = {Recently, the increasing complexity of smart contracts and their interactions has led to more sophisticated strategies for executing attacks. Hackers often need to deploy attacker contracts as delegators to automate these attacks on their behalf. Existing identification methods for attacker contracts either rely on simple patterns (e.g., recursive callback control flow) that suffer from high false-positive rates and limited extraction of interaction and call information, or lack fully automated detection capabilities. Consequently, these limitations reduce the effectiveness of current solutions in identifying modern, intricate attacks. To overcome these challenges, we introduce the concept of state manipulation attacks, which abstracts the exploitation of problematic state dependencies arising from contract interactions. During these attacks, hackers first alter the storage state of one contract (the manipulated contract), which determines the profit they can gain. They then call another contract (the victim contract) to exploit its dependency on the altered state and maximize their profits. We present SMAsher, a tool designed to automatically identify state manipulation attacker contracts. SMAsher leverages fine-grained state-aware dataflow analysis to detect exploitation traces and exploited state dependencies among contracts, focusing on recovering the call path and interaction semantics. Our extensive experiments on 1.38 million real-world contracts demonstrate that SMAsher successfully identifies 311 state manipulation attacker contracts with 100% precision, resulting in \$6.95 million in losses. Our findings also reveal some notable malicious characteristics of hackers’ accounts through their deployed attacker contracts. Additionally, we have provided 10 PoCs (Proof-of-Concepts) for previously unidentified attacks, all of which have been confirmed and released to the community.},
   selected          = {false}
 }
 
@@ -43,12 +44,13 @@
   year              = {2025},
   abbr              = {TSE},
   doi               = {10.1109/TSE.2025.3555622},
+  html              = {https://ieeexplore.ieee.org/document/10944552/},
   arxiv             = {2503.10041},
   pdf               = {https://arxiv.org/pdf/2503.10041.pdf},
   dimensions        = {true},
   altmetric         = {true},
   google_scholar_id = {0EnyYjriUFMC},
-  abstract          = {An LLM-pruned symbolic execution approach for detecting numerical defects in smart contracts.},
+  abstract          = {In recent years, the Ethereum platform has witnessed a proliferation of smart contracts, accompanied by exponential growth in total value locked (TVL). High-TVL smart contracts often require complex numerical computations, particularly in mathematical financial models used by many decentralized applications (DApps). Improper calculations can introduce numerical defects, posing potential security risks. Existing research primarily focuses on traditional numerical defects like integer overflow, and there is currently a lack of systematic research and effective detection methods targeting new types of numerical defects. In this paper, we identify five new types of numerical defects through the analysis of 1,199 audit reports by utilizing the open card method. Each defect is defined and illustrated with a code example to highlight its features and potential consequences. We also propose NumScout, a symbolic execution-based tool designed to detect these five defects. Specifically, the tool combines information from source code and bytecode, analyzing key operations such as comparisons and transfers, to effectively locate defects and report them based on predefined detection patterns. Furthermore, NumScout uses a large language model (LLM) to prune functions which are unrelated to numerical operations. This step allows symbolic execution to quickly enter the target function and improve runtime speed by 28.4%. We run NumScout on 6,617 real-world contracts and evaluated its performance based on manually labeled results. We find that 1,774 contracts contained at least one of the five defects, and the tool achieved an overall precision of 89.7%.},
   selected          = {false}
 }
 
@@ -60,6 +62,7 @@
   year              = {2025},
   abbr              = {ICSE},
   doi               = {10.1109/ICSE55347.2025.00015},
+  html              = {https://ieeexplore.ieee.org/document/11030227/},
   arxiv             = {2408.06037},
   pdf               = {https://arxiv.org/pdf/2408.06037.pdf},
   code              = {https://github.com/shuo-young/Hyperion},
@@ -67,7 +70,7 @@
   altmetric         = {true},
   google_scholar_id = {LkGwnXOMwfcC},
   preview           = {hyperion.png},
-  abstract          = {An LLM and dataflow-guided symbolic execution framework for uncovering inconsistencies in decentralized applications.},
+  abstract          = {The rapid advancement of blockchain platforms has significantly accelerated the growth of decentralized applications (DApps). Similar to traditional applications, DApps integrate front-end descriptions that showcase their features to attract users, and back-end smart contracts for executing their business logic. However, inconsistencies between the features promoted in front-end descriptions and those actually implemented in the contract can confuse users and undermine DApps's trustworthiness. In this paper, we first conducted an empirical study to identify seven types of inconsistencies, each exemplified by a real-world DApp. Furthermore, we introduce Hyperion, an approach designed to automatically identify inconsistencies between front-end descriptions and back-end code implementation in DApps. This method leverages a fine-tuned large language model LLaMA2 to analyze DApp descriptions and employs dataflow-guided symbolic execution for contract bytecode analysis. Finally, Hyperion reports the inconsistency based on predefined detection patterns. The experiment on our ground truth dataset consisting of 54 DApps shows that Hyperion reaches 84.06% overall recall and 92.06% overall precision in reporting DApp inconsistencies. We also implement Hyperion to analyze 835 real-world DApps. The experimental results show that Hyperion discovers 459 real-world DApps containing at least one inconsistency.},
   selected          = {true}
 }
 
@@ -78,12 +81,14 @@
   booktitle         = {International Conference on Software Analysis, Evolution and Reengineering (CCF-B)},
   year              = {2025},
   abbr              = {SANER},
-  doi               = {10.1109/SANER63351.2025.00085},
+  doi               = {10.1109/SANER64311.2025.00075},
+  html              = {https://ieeexplore.ieee.org/document/10992344/},
   arxiv             = {2502.19032},
+  pdf               = {https://arxiv.org/pdf/2502.19032.pdf},
   dimensions        = {true},
   altmetric         = {true},
   google_scholar_id = {hqOjcs7Dif8C},
-  abstract          = {A detection approach for sleepminting vulnerabilities in NFT smart contracts.},
+  abstract          = {The non-fungible tokens (NFTs) market has evolved over the past decade, with NFTs serving as unique digital identifiers on a blockchain that certify ownership and authenticity. The trading attributes of NFTs have drawn many users and investors. However, their high value also attracts attackers who exploit vulnerabilities in NFT smart contracts for illegal profits, thereby harming the NFT ecosystem. One notable vulnerability in NFT smart contracts is sleepminting, which allows attackers to illegally transfer others' tokens. Although some research has been conducted on sleepminting, these studies are basically qualitative analyses or based on historical transaction data. There is a lack of understanding from the contract code perspective, which is crucial for identifying such issues and preventing attacks before they occur. To address this gap, in this paper, we categorize the sleepminting issue and find four distinct types of sleepminting in NFT smart contracts. Each type is accompanied by a comprehensive definition and illustrative code examples to provide a clear understanding of how these vulnerabilities manifest within the contract code. Furthermore, to help detect the defined defects before the sleepminting problem occurrence, we propose a tool named WakeMint, which is built on a symbolic execution framework. WakeMint is designed to be compatible with both high and low versions of Solidity, ensuring broad applicability across various smart contracts. The tool also employs a pruning strategy to shorten the detection period. Additionally, WakeMint gathers some key information, such as the owner of an NFT and emissions of events related to the transfer of the NFT's ownership during symbolic execution. Then, it analyzes the features of the transfer function based on this information so that it can judge the existence of sleepminting. We ran WakeMint on 11,161 real-world NFT smart contracts and evaluated the results. We found 115 instances of sleepminting issues in total, and the precision of our tool is 87.8%.},
   selected          = {false}
 }
 
@@ -95,6 +100,7 @@
   year              = {2024},
   abbr              = {ICSE},
   doi               = {10.1145/3597503.3639153},
+  html              = {https://dl.acm.org/doi/10.1145/3597503.3639153},
   arxiv             = {2403.19112},
   pdf               = {https://arxiv.org/pdf/2403.19112.pdf},
   code              = {https://github.com/shuo-young/BlockWatchdog},
@@ -102,7 +108,7 @@
   altmetric         = {true},
   google_scholar_id = {eQOLeE2rZwMC},
   preview           = {blockwatchdog.png},
-  abstract          = {A cross-contract analysis approach for detecting exploitable reentrancy vulnerabilities through attacker-contract identification.},
+  abstract          = {Reentrancy, a notorious vulnerability in smart contracts, has led to millions of dollars in financial loss. However, current smart contract vulnerability detection tools suffer from a high false positive rate in identifying contracts with reentrancy vulnerabilities. Moreover, only a small portion of the detected reentrant contracts can actually be exploited by hackers, making these tools less effective in securing the Ethereum ecosystem in practice. In this paper, we propose BlockWatchdog, a tool that focuses on detecting reentrancy vulnerabilities by identifying attacker contracts. These attacker contracts are deployed by hackers to exploit vulnerable contracts automatically. By focusing on attacker contracts, BlockWatchdog effectively detects truly exploitable reentrancy vulnerabilities by identifying reentrant call flow. Additionally, BlockWatchdog is capable of detecting new types of reentrancy vulnerabilities caused by poor designs when using ERC tokens or user-defined interfaces, which cannot be detected by current rule-based tools. We implement BlockWatchdog using cross-contract static dataflow techniques based on attack logic obtained from an empirical study that analyzes attacker contracts from 281 attack incidents. BlockWatchdog is evaluated on 421,889 Ethereum contract bytecodes and identifies 113 attacker contracts that target 159 victim contracts, leading to the theft of Ether and tokens valued at approximately 908.6 million USD. Notably, only 18 of the identified 159 victim contracts can be reported by current reentrancy detection tools.},
   selected          = {true}
 }
 
@@ -114,11 +120,11 @@
   year              = {2024},
   abbr              = {TOSEM},
   doi               = {10.1145/3674725},
-  html              = {https://dl.acm.org/doi/abs/10.1145/3674725},
+  html              = {https://dl.acm.org/doi/10.1145/3674725},
   dimensions        = {true},
   altmetric         = {true},
   google_scholar_id = {ufrVoPGSRksC},
-  abstract          = {A function-oriented fuzzing approach for effective and efficient smart contract vulnerability detection.},
+  abstract          = {With the increasing popularity of Decentralized Applications (DApps) in blockchain, securing smart contracts has been a long-term, high-priority subject in the domain. Among the various research directions for vulnerability detection, fuzzing has received extensive attention because of its high effectiveness. However, with the increasing complexity of smart contracts, existing fuzzers may waste substantial time exploring locations irrelevant to smart contract vulnerabilities. In this article, we present FunFuzz, a function-oriented fuzzer, which is dedicatedly tailored for detecting smart contract vulnerability with high effectiveness and efficiency. The key observation in our research is that most smart contract vulnerabilities exist in specific functions rather than randomly distributed in all program code like other traditional software. To this end, unlike traditional fuzzers which mainly target code coverage, FunFuzz identifies risky functions while pruning non-risky ones in smart contracts. In this way, it significantly narrows down the exploration scope during the fuzzing process. In addition, FunFuzz employs three unique strategies to direct itself toward effectively discovering vulnerabilities specific to smart contracts (e.g., reentrancy, block dependency, and gasless send). Extensive experiments on 170 real-world contracts demonstrate that FunFuzz outperforms state-of-the-art fuzzers in terms of effectiveness and efficiency.},
   selected          = {false}
 }
 
@@ -129,12 +135,14 @@
   journal           = {IEEE Transactions on Information Forensics and Security (CCF-A)},
   year              = {2023},
   abbr              = {TIFS},
-  doi               = {10.1109/TIFS.2023.3341857},
+  doi               = {10.1109/TIFS.2023.3346276},
   html              = {https://ieeexplore.ieee.org/document/10371347},
+  arxiv             = {2305.14748},
+  pdf               = {https://arxiv.org/pdf/2305.14748.pdf},
   dimensions        = {true},
   altmetric         = {true},
   google_scholar_id = {Se3iqnhoufwC},
-  abstract          = {An empirical analysis of cryptocurrency money-laundering asset flows through Ethereum heist cases.},
+  abstract          = {With the overall momentum of the blockchain industry, financial crimes related to blockchain crypto-assets are becoming increasingly prevalent. After committing a crime, the main goal of cybercriminals is to obfuscate the source of the illicit funds in order to convert them into cash and get away with it. Many studies have analyzed money laundering (ML) in the field of the traditional financial sector. However, in terms of the emerging blockchain crypto-asset ecosystem, there is currently only one public anti-money laundering (AML) dataset for Bitcoin—the Elliptic dataset, whose binary labels (licit vs. illicit transactions) cannot cover the ML behaviors in the evergrowing crypto-asset market. To fill this gap, in this paper, we propose a framework named XBlockFlow which identifies ML addresses starting from Ethereum heist incidents and obtains the first detailed Ethereum ML dataset named EthereumHeist, and then conducts a comprehensive feature and evolution analysis on the EthereumHeist dataset according to the three main phases of ML. We first search for the source cybercriminal accounts including exchange hackers, DeFi exploiters, and scammers. Then, employing the idea of taint analysis, we track the diverse downstream transactions and addresses layer by layer. At the end of tracking, we identify and categorize service providers, and go a step further to investigate advanced ML methods that do not exist in the Bitcoin scenario, e.g. token swap and counterfeit token creation. Based on the ML identification results, we obtain many interesting findings about crypto-asset money laundering, observing the escalating money laundering methods such as creating counterfeit tokens and masquerading as speculators.},
   selected          = {false}
 }
 
@@ -147,12 +155,14 @@
   abbr              = {ISSTA},
   doi               = {10.1145/3597926.3598063},
   html              = {https://dl.acm.org/doi/10.1145/3597926.3598063},
+  arxiv             = {2305.15829},
+  pdf               = {https://arxiv.org/pdf/2305.15829.pdf},
   code              = {https://github.com/NFTDefects/nftdefects},
   dimensions        = {true},
   altmetric         = {true},
   google_scholar_id = {YsMSGLbcyi4C},
   preview           = {nftdefects.png},
-  abstract          = {A systematic definition and detection study of defects in NFT smart contracts.},
+  abstract          = {Recently, the birth of non-fungible tokens (NFTs) has attracted great attention. NFTs are capable of representing users' ownership on the blockchain and have experienced tremendous market sales due to their popularity. Unfortunately, the high value of NFTs also makes them a target for attackers. The defects in NFT smart contracts could be exploited by attackers to harm the security and reliability of the NFT ecosystem. Despite the significance of this issue, there is a lack of systematic work that focuses on analyzing NFT smart contracts, which may raise worries about the security of users' NFTs. To address this gap, in this paper, we introduce 5 defects in NFT smart contracts. Each defect is defined and illustrated with a code example highlighting its features and consequences, paired with possible solutions to fix it. Furthermore, we propose a tool named NFTGuard to detect our defined defects based on a symbolic execution framework. Specifically, NFTGuard extracts the information of the state variables from the contract abstract syntax tree (AST), which is critical for identifying variable-loading and storing operations during symbolic execution. Furthermore, NFTGuard recovers source-code-level features from the bytecode to effectively locate defects and report them based on predefined detection patterns. We run NFTGuard on 16,527 real-world smart contracts and perform an evaluation based on the manually labeled results. We find that 1,331 contracts contain at least one of the 5 defects, and the overall precision achieved by our tool is 92.6%.},
   selected          = {true}
 }
 
@@ -168,7 +178,7 @@
   dimensions        = {true},
   altmetric         = {true},
   google_scholar_id = {UebtZRa9Y70C},
-  abstract          = {A control-flow-based analysis technique for WebAssembly smart contracts.},
+  abstract          = {With the proliferation of various types of blockchain applications, smart contracts are getting more and more essential in developing decentralized applications due to their powerful expressing capabilities. However, security vulnerabilities of smart contracts keep arising in recent years, which has attracted a lot of attention. Most of the related research mainly focuses on smart contracts deployed on Ethereum. But in the meantime, more and more types of smart contracts adopt Wasm as their bytecode format due to its smaller size and higher operating efficiency in blockchain. To avoid the recurrence of exploited vulnerabilities in Wasm smart contracts, we develop WaLi, a control-flow-based analyzer for security vulnerabilities. In particular, we first construct a control flow graph based on the Wasm bytecode and define a critical path identification method to locate possible paths that may contain vulnerabilities. Then we adopt a Wasm virtual machine to simulate a runtime environment when tracing the critical paths and report the result based on our vulnerability detection patterns. We choose Liquid smart contracts on FISCO-BCOS to illustrate our approach and the experimental results show that WaLi performs well in detecting the access control vulnerabilities.},
   selected          = {false}
 }
 

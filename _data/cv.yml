@@ -187,6 +187,9 @@ cv:
         url: "https://link.springer.com/chapter/10.1007/978-981-19-8043-5_23"
 
     Academic Service:
+      - bullet: "**Journal Reviewer:**"
+      - bullet: "IEEE Transactions on Software Engineering (TSE, CCF-A, JCR Q1)"
+      - bullet: "IEEE Transactions on Emerging Topics in Computational Intelligence (TETCI, JCR Q1)"
       - bullet: "**Program Committee Member:**"
       - bullet: "BlockSys 2026: International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (CCF-C)"
       - bullet: "BlockSys 2023: International Conference on Blockchain and Trustworthy Systems (CCF-C)"

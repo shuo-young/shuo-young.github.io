@@ -188,6 +188,18 @@ Beyond academic research, ongoing work includes real-world vulnerability discove
 
 {% include selected_papers.liquid %}
 
+## <a href="{{ '/cv/' | relative_url }}#academic-service" style="color: inherit">academic service</a>
+
+- **Journal Reviewer**:
+  - *IEEE Transactions on Software Engineering* (**TSE**, CCF-A, JCR Q1)
+  - *IEEE Transactions on Emerging Topics in Computational Intelligence* (**TETCI**, JCR Q1)
+- **Program Committee Member**:
+  - International Conference on Blockchain, Artificial Intelligence, and Trustworthy Systems (**BlockSys 2026**, CCF-C)
+  - International Conference on Blockchain and Trustworthy Systems (**BlockSys 2023**, CCF-C)
+- **Journal & Conference Sub-reviewer**:
+  - **Journals**: *IEEE Transactions on Dependable and Secure Computing* (**TDSC**, CCF-A), *ACM Transactions on Software Engineering and Methodology* (**TOSEM**, CCF-A), *IEEE Internet of Things Journal* (**IoTJ**, CCF-C), *IEEE Transactions on Network Science and Engineering* (**TNSE**), *Blockchain: Research and Applications* (**BCRA**, CCF-B)
+  - **Conferences**: *ACL 2025* (CCF-A), *CVPR 2025* (CCF-A), *ICLR 2025* (CCF-A), *APSEC 2024* (CCF-C), *Internetware 2024* (CCF-C)
+
 <div class="visitor-map" style="max-width: 360px; margin: 2.5rem auto 1rem auto; text-align: center;">
   <iframe src="{{ site.baseurl }}/assets/html/map.html" style="width: 100%; height: 175px; border: none; overflow: hidden; border-radius: 8px;" scrolling="no"></iframe>
 </div>
